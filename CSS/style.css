@@ -286,3 +286,32 @@ hr{
 
 }
 
+.footer-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    justify-content: center;
+    width: 1120px;
+    height: 248px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.icon{
+    width: 36px;
+    height: 36px;
+    margin-right: 20px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.first-list li{
+    margin-bottom: 26px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Second-list li{
+    margin-bottom: 26px;
+    color: rgba(0, 0, 0, 0.5);
+}
